@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-04T20:29:17 IST" name="Suite" finished-at="2025-10-04T20:30:09 IST" duration-ms="52222">
+    <groups>
+    </groups>
+    <test started-at="2025-10-04T20:29:17 IST" name="ChromeTest" finished-at="2025-10-04T20:29:42 IST" duration-ms="25033">
+      <class name="tests.SearchTrainTest">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:tests.SearchTrainTest@7770f470]" started-at="2025-10-04T20:29:17 IST" name="browserSetup" finished-at="2025-10-04T20:29:35 IST" duration-ms="18615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="searchYourTrain(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTrainTest@7770f470]" started-at="2025-10-04T20:29:35 IST" name="searchYourTrain" data-provider="searchTrains" finished-at="2025-10-04T20:29:41 IST" duration-ms="6053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AMBALA CANT JN - UMB (AMBALA)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SHMATA VD KATRA - SVDK (Jammu)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchYourTrain -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SearchTrainTest@7770f470]" started-at="2025-10-04T20:29:41 IST" name="closeBrowser" finished-at="2025-10-04T20:29:42 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SearchTrainTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-10-04T20:29:42 IST" name="EdgeTest" finished-at="2025-10-04T20:30:09 IST" duration-ms="27040">
+      <class name="tests.SearchTrainTest">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:tests.SearchTrainTest@6aaceffd]" started-at="2025-10-04T20:29:42 IST" name="browserSetup" finished-at="2025-10-04T20:30:03 IST" duration-ms="20816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="searchYourTrain(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTrainTest@6aaceffd]" started-at="2025-10-04T20:30:03 IST" name="searchYourTrain" data-provider="searchTrains" finished-at="2025-10-04T20:30:09 IST" duration-ms="5911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AMBALA CANT JN - UMB (AMBALA)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SHMATA VD KATRA - SVDK (Jammu)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchYourTrain -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SearchTrainTest@6aaceffd]" started-at="2025-10-04T20:30:09 IST" name="closeBrowser" finished-at="2025-10-04T20:30:09 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SearchTrainTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
