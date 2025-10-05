@@ -29,4 +29,3 @@ CAPTCHA is handled manually via user input in Selenium IDE, which the code then 
 
 📁 Data-Driven Testing
 Data Driven testing is used to search for the trains between multiple stations ( from source to destination).
-It also supports the parallel
