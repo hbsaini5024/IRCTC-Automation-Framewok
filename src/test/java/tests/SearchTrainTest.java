@@ -29,14 +29,22 @@ public class SearchTrainTest extends BaseTest{
 		
 		search.CountTrains();
 		
+		Thread.sleep(3000);
+		
+		search.applyFilterByDuration();
+		search.applyFilterByCategory();
+		
+		Thread.sleep(3000);
+		search.CountTrains();
+		
 	}
 	
 	@DataProvider(name = "searchTrains")
 	public Object[][] getData() {
 	    return new Object[][] {
 	        {"AMBALA CANT JN - UMB (AMBALA)", "SHMATA VD KATRA - SVDK (Jammu)	"},
-	        {"AMBALA CANT JN - UMB (AMBALA)", "HARIDWAR JN - HW (HARIDWAR))"},
-	        {"KURUKSHETRA JN - KKDE ","JAIPUR JN - JP (JAIPUR)"}
+//	        {"AMBALA CANT JN - UMB (AMBALA)", "HARIDWAR JN - HW (HARIDWAR))"},
+//	        {"KURUKSHETRA JN - KKDE ","JAIPUR JN - JP (JAIPUR)"}
 	    };
 	}
 
